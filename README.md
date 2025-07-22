@@ -1,10 +1,4 @@
-# Eric Brant's Web Development Portfolio
-
-My name is **Eric Brant – a front-end developer** passionate about building accessible, responsive, and efficient applications.
-
-Regarding my candidacy for this apprenticeship, I would like to share my experiences with HTML, CSS, Python, JavaScript, and React, but I would also like to stress how much I want to learn other languages. It’s not enough to know the core ones. I need to learn Java, C++, and C# soon. I want to learn any language I can to help make solid applications. My journey into the world of programming started long ago when people, who were computer scientists, encouraged me to pursue a career in said field. Recently, I have found it rewarding to create artifacts, but I want to now start my career.
-
-I am currently learning **JavaScript, React, HTML, CSS, and Python**, and I plan to expand into **Java, C++, and C#** soon. It’s not enough to know the core languages – I want to learn anything that helps build solid, impactful applications.
+into **Java, C++, and C#** soon. It’s not enough to know the core languages – I want to learn anything that helps build solid, impactful applications.
 
 ---
 
