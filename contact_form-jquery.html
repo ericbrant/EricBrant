@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Form</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h2>Contact Form</h2>
+  <form id="contactForm" method="POST" action="contact.php">
+    <label>Name:</label><br />
+    <input type="text" name="name" /><br /><br />
+
+    <label>Email:</label><br />
+    <input type="email" name="email" /><br /><br />
+
+    <label>Message:</label><br />
+    <textarea name="message"></textarea><br /><br />
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    $(document).ready(function(){
+      $('#contactForm').submit(function(e){
+        let name = $('input[name="name"]').val();
+        let email = $('input[name="email"]').val();
+        let message = $('textarea[name="message"]').val();
+
+        if(name == "" || email == "" || message == ""){
+          alert("All fields are required.");
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
