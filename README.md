@@ -1,5 +1,4 @@
-into **Java, C++, and C#** soon. It’s not enough to know the core languages – I want to learn anything that helps build solid, impactful applications.
-
+My name is Eric Brant. Recently I've begun exploring the world of programming, especially as it pertains to AI and front-end development. I would like to discover new territories soon. I have experience with AWS, HTML, jQuery, JS, PHP, Python, React, SQL, WCAG.
 ---
 
 ## 📁 **Featured Projects**
