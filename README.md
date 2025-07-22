@@ -1,6 +1,6 @@
 # Eric Brant's Web Dev Portfolio
 
-Hi, I'm Eric 👋, a front-end developer focusing on accessible, responsive, and efficient solutions.
+Greeting, my name is Eric Brant. I'm exploring the world of programming, and I'm hoping to find a new land to settle. Before I began exploring the shores of programming, I was exploring the worlds of literature and linguistics. Now I get to explore computer linguistics while learning coding. I hope to be a polyglot in computer languages soon so I can properly communicate with the residents in these new territories. Eventually I want to design video games, including text-based adventure games, with strong stories that will inspire rich imaginations. 
 
 ## Projects
 
