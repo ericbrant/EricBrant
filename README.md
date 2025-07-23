@@ -1,6 +1,6 @@
 # Eric Brant's Web Dev Portfolio
 
-Greeting, my name is Eric Brant. I'm exploring the world of programming, and I'm hoping
+Greetings, my name is Eric Brant. I'm exploring the world of programming, and I'm hoping
 to find a new land to settle. Before I began exploring the shores of programming, I was
 exploring the worlds of literature and linguistics. Now I get to explore computer
 linguistics while learning coding. I hope to be a polyglot in computer languages soon
