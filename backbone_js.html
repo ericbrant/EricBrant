@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Backbone.js Todo Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://underscorejs.org/underscore-min.js"></script>
+  <script src="https://backbonejs.org/backbone-min.js"></script>
+</head>
+<body>
+  <h2>My Todos</h2>
+  <ul id="todo-list"></ul>
+
+  <script>
+    // 1. Define a Model
+    var Todo = Backbone.Model.extend({
+      defaults: {
+        title: 'Untitled task',
+        completed: false
+      }
+    });
+
+    // 2. Define a Collection of Models
+    var TodoList = Backbone.Collection.extend({
+      model: Todo
+    });
+
+    // 3. Define a View for a single Model
+    var TodoView = Backbone.View.extend({
+      tagName: 'li',
+      initialize: function() {
+        this.listenTo(this.model, 'change', this.render);
+      },
+      render: function() {
+        this.$el.text(this.model.get('title'));
+        return this;
+      }
+    });
+
+    // 4. Define the App View to render the entire list
+    var AppView = Backbone.View.extend({
+      el: '#todo-list',
+      initialize: function() {
+        this.collection = new TodoList([
+          { title: 'Learn Backbone.js' },
+          { title: 'Build resume sample' }
+        ]);
+        this.render();
+      },
+      render: function() {
+        this.$el.empty();
+        this.collection.each(function(todo) {
+          var view = new TodoView({ model: todo });
+          this.$el.append(view.render().el);
+        }, this);
+      }
+    });
+
+    // 5. Kick off the app
+    $(function() {
+      new AppView();
+    });
+  </script>
+</body>
+</html>
