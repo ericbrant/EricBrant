@@ -68,8 +68,8 @@ Greetings, my name is Eric Brant. I’m exploring the world of programming, and 
 
 I’m always open to feedback, collaboration, or a good conversation about code and storytelling.  
 - GitHub: [github.com/ericbrant](https://github.com/ericbrant)  
-- Email: eric.brant@example.com  
-- LinkedIn: [linkedin.com/in/ericbrant](https://linkedin.com/in/ericbrant)
+- Email: repeatingfigure@gmail.com  
+- Website: [ericbrant.github.io](https://ericbrant.github.io)
 
 ## Afterword
 
